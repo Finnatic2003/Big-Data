@@ -36,6 +36,8 @@ In unserem Projekt haben wir Skaffold verwendet, um das gesamte Cluster und die 
 ### 3.6 Technologien
 ### Docker
 •	Container für Minikube 
+
+
 •	Basis für Cluster über Kubernetes
 ### Minikube
 • Testen und Entwickeln von Kubernetes Cluster
