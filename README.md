@@ -1,8 +1,8 @@
-Autoren:
-Thanadon Chiangkham (9002977)
-Lars Lönne (1412338)
-Nils Loomans (4850429)
-Finn Münstermann (3071508)
+Autoren:  
+Thanadon Chiangkham (9002977)  
+Lars Lönne (1412338)  
+Nils Loomans (4850429)  
+Finn Münstermann (3071508)  
 Jan Waldmann (7952189)
 
  
