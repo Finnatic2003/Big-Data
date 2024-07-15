@@ -41,12 +41,15 @@ In unserem Projekt haben wir Skaffold verwendet, um das gesamte Cluster und die 
 •	Basis für Cluster über Kubernetes
 ### Minikube
 • Testen und Entwickeln von Kubernetes Cluster
+
 • Lokale Bereitstellung der Cluster 
 ### Kafka
 • Verteilte Evenets
+
 • Kommuniziert mit Spark
 ### Strimzi
 • Stellt Apache Kafka bereit
+
 • Verwaltet Kafka Cluster und Broker
 ### Spark
 • Engine für Datenverarbeitung
@@ -54,6 +57,7 @@ In unserem Projekt haben wir Skaffold verwendet, um das gesamte Cluster und die 
 • Würde große Datenmengen verarbeiten (Unsere Daten jedoch relativ gering)
 ### MariaDB
 • Speichereung der Logs 
+
 • Spark schreibt die übertragenen Logs in Maria DB rein
 
 ## 4. Probleme
