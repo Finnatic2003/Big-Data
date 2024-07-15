@@ -66,4 +66,4 @@ Es wurde jedoch auf dem Laptop eines Komilitonen getestet sodass es läuft.
 Screencast ebenfalls auf dem Laptop eines Komilitionen erstellt.
 Hier Screencast link maybe idk
 
-Abschließend würden wir gerne hinzufügen, dass uns das Projekt sehr schwer fiel, da wir in allen Bereichen(bspw. Datenbankanbindung, Arbeiten mit Docker, Containern, Kubernetes etc.) wenig bis keine Vorerfahrung hatten.
+Abschließend würden wir gerne hinzufügen, dass uns das Projekt sehr schwer fiel, da wir in allen Bereichen (bspw. Datenbankanbindung, Arbeiten mit Docker, Containern, Kubernetes etc.) wenig bis keine Vorerfahrung hatten.
