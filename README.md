@@ -22,25 +22,26 @@ Apache Kafka mit Strimzi: Die Implementierung beginnt mit der Bereitstellung ein
 •	Kafka-Producer: Ein Kafka-Producer sendet Klickdaten an ein Kafka-Topic. Diese Daten repräsentieren Benutzerinteraktionen mit den Produkten, beispielsweise das Klicken auf Produktlinks.  
 
 •	Kafka-Cluster: Der Kafka-Cluster läuft auf Kubernetes und wird durch Strimzi verwaltet. Dies bietet hohe Verfügbarkeit und Skalierbarkeit, da Kafka in einem verteilten System betrieben wird.
+
 ### 3.2 Stream Processing Layer
 
 •	Apache Spark: Ein Spark-Job liest die Klickdaten kontinuierlich von Kafka und verarbeitet diese. Die Nachfrage nach den Produkten wird anhand der Anzahl der Klicks dynamisch angepasst.  
 
 •	Hadoop: Hadoop wird genutzt, um historische Klickdaten zu speichern. Diese Daten werden für Batch-Processing und tiefere Analysen verwendet. Durch die Speicherung in einem Hadoop-basierten Data Lake können umfangreiche Datenmengen effizient gespeichert und verarbeitet werden.
+
 ### 3.3 Serving Layer
 MariaDB: Die Nachfragedaten werden in eine MariaDB-Datenbank geschrieben. Diese Datenbank speichert die aktuelle Nachfrage der Produkte und dient als Backend für die Web-UI.
 
 •	Datenpersistenz: Die Speicherung der Nachfragedaten erfolgt in einer strukturierten Form, die schnelle Lesezugriffe ermöglicht.  
 
 •	Integration mit Spark: Spark schreibt die Nachfragedaten direkt in die MariaDB-Datenbank, was eine zeitnahe Aktualisierung der Nachfragedaten gewährleistet.
+
 ### 3.4 Web-UI
-Web-UI-Entwicklung: Eine Webanwendung wird entwickelt, die die aktuelle Nachfrage der Produkte anzeigt. Diese Anwendung ruft die Daten aus der MariaDB-Datenbank ab und aktualisiert die Anzeige in Echtzeit.
+Web-UI-Entwicklung: Eine Webanwendung wurde entwickelt, die die aktuelle Nachfrage der Produkte anzeigt. Diese Anwendung ruft die Daten aus der MariaDB-Datenbank ab.
 
-•	Visualisierung: Die Nachfrage wird nahezu in Echtzeit aktualisiert, wodurch Benutzer die dynamische Anpassung der Nachfrage unmittelbar nachvollziehen können.  
-
-•	Benutzerinteraktion: Benutzer können durch ihre Klicks auf die Produkte die Nachfrageentwicklung beeinflussen, was die Interaktivität der Anwendung erhöht.
 ### 3.5 Skaffold
 In unserem Projekt haben wir Skaffold verwendet, um das gesamte Cluster und die erforderlichen Komponenten zu starten und zu verwalten. Skaffold ermöglichte es uns, die Kubernetes-Ressourcen für Apache Kafka mit Strimzi, Apache Spark Streaming und MariaDB effizient bereitzustellen. Wir haben Skaffold konfiguriert, um die verschiedenen Docker-Images zu bauen und zu verteilen, die für die Anwendung erforderlich waren, einschließlich der Kafka-Producer, Spark-Jobs und der MariaDB-Datenbank.
+
 ### 3.6 Technologien
 ### Docker
 •	Container für Minikube 
