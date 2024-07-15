@@ -56,7 +56,7 @@ Aufgrund der Arbeitslaptops die leider wenig Rechenleistung zur Verfügung haben
 ![image](https://github.com/user-attachments/assets/9a0fd5c7-de05-495d-adc4-15dbce34ed03)
 ![image](https://github.com/user-attachments/assets/e4f9f4f9-b1a7-478d-9b0a-04909b783ff0)
 
-Außerdem zwingt es uns dazu, nach jeden skaffold dev, mehrere Minuten zu warten, was die debugging Arbeit noch erschwert.
+Außerdem zwingt es uns dazu, nach jedem skaffold dev, mehrere Minuten zu warten, was die debugging Arbeit noch erschwert.
 
 
 Es wurde jedoch auf dem Laptop eines Komilitonen getestet sodass es läuft.
@@ -66,4 +66,4 @@ Es wurde jedoch auf dem Laptop eines Komilitonen getestet sodass es läuft.
 Screencast ebenfalls auf dem Laptop eines Komilitionen erstellt.
 Hier Screencast link maybe idk
 
-Abschließend muss hinzugefügt werden, dass das Projekt für uns sehr Anspruchvoll war, jedoch mit viel Arbeit machbar.
+Abschließend würden wir gerne hinzufügen, dass uns das Projekt sehr schwer fiel, da wir in allen Bereichen(bspw. Datenbankanbindung, Arbeiten mit Docker, Containern, Kubernetes etc.) wenig bis keine Vorerfahrung hatten.
