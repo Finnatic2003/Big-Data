@@ -12,7 +12,8 @@ Unsere Anwendung ist eine einfache Darstellung der Weinnachfrage. Ziel dabei war
 
 ## 2. Systemarchitektur
 Die Architektutr der Systeme wird über das Attachment dargestellt
-![image](https://github.com/user-attachments/assets/67b45b7f-3c27-4935-ae35-1d727ac1175a)
+![image](https://github.com/user-attachments/assets/bb133be5-1f42-43f5-8e54-981c9a335f99)
+
 
 ## 3. Implementierung
 
