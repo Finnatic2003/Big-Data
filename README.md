@@ -85,4 +85,4 @@ Es wurde jedoch auf dem Laptop eines Komilitonen getestet sodass es läuft.
 ![image](https://github.com/user-attachments/assets/9f8efbf3-423a-4a58-a7f2-fd2b1c45b5cc)
 
 Screencast ebenfalls auf dem Laptop eines Komilitionen erstellt.
-Hier Screencast link maybe idk
+Hier Screencast link
